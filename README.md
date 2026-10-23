@@ -4,15 +4,16 @@ How steam works on a steamdeck
 
 1. It stores profile and user information in ~/.steam/steam/config/loginusers.vdf (Not Binary)
    - Note: This contains all the user information and the STEAMID_32BIT per user
-3. It stores Non-Steam shortcuts information in ~~/.steam/steam/userdata/(STEAMID_32BIT)/config/shortcuts.vdf
+2. It stores Non-Steam shortcuts information in ~~/.steam/steam/userdata/(STEAMID_32BIT)/config/shortcuts.vdf
    - Note: At first steam doesnt create that file until a shortcut have been created in steam.
    - Note: this file is a binary VDF format
    - Note: [AppID32-bit] is in here
-4. It stores custom images in ~/.steam/steam/userdata/(STEAMID_32BIT)/config/grid/
+3. It stores custom images in ~/.steam/steam/userdata/(STEAMID_32BIT)/config/grid/
   - Covers are stored as [AppID32-bit]p.jpg
+    - Grids: [600x900] images
   - Wide covers are stored as [AppID32-bit].jpg
   - Logos are stored as [AppID32-bit]_logo.jpg
   - Backgrounds are stored as [AppID32-bit]_hero.jpg
   - Note: the grids directory when never created doesnt exist
   - Note: It doesnt remove the old images when shortcut gets deleted
-5. The users avatar gets stored in ~/.steam/steam/config/avatarcache/(STEAMID_64BIT).png
+4. The users avatar gets stored in ~/.steam/steam/config/avatarcache/(STEAMID_64BIT).png
