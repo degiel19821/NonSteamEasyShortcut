@@ -14,4 +14,4 @@ How steam works on a steamdeck
   - Backgrounds are stored as [AppID32-bit]_hero.jpg
   - Note: the grids directory when never created doesnt exist
   - Note: It doesnt remove the old images when shortcut gets deleted
-5. The users avatar gets stored in ~/.steam/steam/config/avatarcache/(STEAMID_32BIT).png
+5. The users avatar gets stored in ~/.steam/steam/config/avatarcache/(STEAMID_64BIT).png
